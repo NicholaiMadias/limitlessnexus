@@ -1,0 +1,19 @@
+```json
+{
+  "name": "Limitless Nexus OS",
+  "short_name": "LimitlessOS",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#00ff41",
+  "description": "Unified Command Portal for limitlessnexus.com, amazinggracehomeliving.com, and gamifiedlearning.org.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1150/1150612.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
+```
