@@ -1,0 +1,17 @@
+Pre-Deployment Checklist
+Follow these steps to ensure the Limitless Nexus deployment is hardened and secure.
+Phase 1: Authentication
+• [ ] Service Account: Verify the Google Cloud Service Account has Editor access to folder 1bXBaDMH47RafqbOymfBqESnvRkJxzMfr.
+• [ ] GitHub Secrets: Add the Service Account JSON to GOOGLE_SERVICE_ACCOUNT_KEY in the repository settings.
+• [ ] Apps Script: Update the GITHUB_TOKEN in the Apps Script Project Properties to allow limitlessfreedom to trigger deployments.
+Phase 2: Domain Setup
+• [ ] DNS: Point A-records for limitlessnexus.com to GitHub Pages IPs.
+• [ ] CNAME: Ensure the CNAME file in the repo contains only limitlessnexus.com.
+• [ ] HTTPS: Once the DNS propagates, check "Enforce HTTPS" in GitHub Pages settings.
+Phase 3: Financial Terminal
+• [ ] Cash App: Confirm the $GulfNexus handle is correct for donation routing.
+• [ ] Coinbase: Verify the Commerce API key if using custom checkout flows.
+• [ ] Limitless Wallet: Sync tmadias@gmail.com BTC/ETH public addresses for the "Receive" triggers.
+Phase 4: Verification
+• [ ] Run node Ministry/Integration/index.mjs locally to test Drive sync.
+• [ ] Perform a test "Star Matrix" cycle to verify telemetry logging to the Apps Script backend.
